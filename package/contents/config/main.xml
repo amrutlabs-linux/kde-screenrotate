@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <!-- Which orientations are allowed -->
+    <entry name="enableNone" type="Bool"><default>true</default></entry>
+    <entry name="enableLeft" type="Bool"><default>true</default></entry>
+    <entry name="enableInverted" type="Bool"><default>true</default></entry>
+    <entry name="enableRight" type="Bool"><default>true</default></entry>
+
+    <!-- 0 = cycle through enabled, 1 = toggle between two, 2 = open popup -->
+    <entry name="clickAction" type="Int"><default>0</default></entry>
+    <!-- 0 = clockwise, 1 = counter-clockwise -->
+    <entry name="cycleDirection" type="Int"><default>0</default></entry>
+    <!-- orientation keys: none, left, inverted, right -->
+    <entry name="toggleFirst" type="String"><default>none</default></entry>
+    <entry name="toggleSecond" type="String"><default>right</default></entry>
+    <!-- 0 = nothing, 1 = reset to normal, 2 = open popup -->
+    <entry name="middleClickAction" type="Int"><default>1</default></entry>
+
+    <entry name="scrollToRotate" type="Bool"><default>true</default></entry>
+
+    <!-- empty = primary output, "*" = all outputs, otherwise output name -->
+    <entry name="outputName" type="String"><default></default></entry>
+
+    <entry name="showOsd" type="Bool"><default>true</default></entry>
+    <entry name="rotatePanelIcon" type="Bool"><default>true</default></entry>
+    <entry name="iconName" type="String"><default>object-rotate-right</default></entry>
+  </group>
+</kcfg>

@@ -1,0 +1,21 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Id": "com.github.amrutlabs-linux.screenrotate",
+        "Name": "Screen Rotate",
+        "Description": "Rotate the screen orientation from your panel, with configurable orientations, click and scroll actions",
+        "Icon": "object-rotate-right",
+        "Version": "1.0.0",
+        "License": "GPL-3.0-or-later",
+        "Category": "System Information",
+        "EnabledByDefault": true,
+        "Website": "https://github.com/amrutlabs-linux/kde-screenrotate",
+        "Authors": [
+            {
+                "Name": "Amrutesh Naregal",
+                "Email": "amruteshnaregal1234@gmail.com"
+            }
+        ]
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
